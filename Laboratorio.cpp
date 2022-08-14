@@ -17,6 +17,12 @@ void toUpper(string &cadena)
     cadena[0] =toupper(cadena[0]);
   }
 }
+void alfa_num(string cadena)
+{
+    int longitud;
+    longitud=cadena.size();
+    cout<<"\nel numero de caracteres es "<<longitud;
+}
 int main()
 {
 string texto;
@@ -37,4 +43,5 @@ for(int i=0; texto[i]!='\0' ; i++)
     }
 }
     cout<<"la cadena modificada es "<<texto;
+    alfa_num(texto);
 }
